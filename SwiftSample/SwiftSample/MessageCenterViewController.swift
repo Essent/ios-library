@@ -8,7 +8,7 @@ class MessageCenterViewController : UAMessageCenterSplitViewController {
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated);
-        self.style = UAirship.messageCenter().style
+        self.viewControllerStyle = UAirship.messageCenter().style
     }
 
     func showInbox() {

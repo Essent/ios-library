@@ -54,7 +54,7 @@ NSString *const UAMessageDataScheme = @"message";
                                                                                                  action:@selector(dismiss)];
         }
 
-        self.splitViewController.style = self.style;
+        self.splitViewController.viewControllerStyle = self.style;
         self.splitViewController.title = self.title;
 
         self.splitViewController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
