@@ -22,7 +22,7 @@
 /**
  * The style to apply to the message center
  */
-@property(nonatomic, strong) UAMessageCenterStyle *_viewControllerStyle;
+@property(nonatomic, strong) UAMessageCenterStyle *viewControllerStyle;
 
 /**
  * The embedded list view controller.
